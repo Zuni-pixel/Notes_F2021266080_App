@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always|collapseActionView"
+        android:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <include
+        android:id="@+id/action_sort_title"
+        android:title="Sort by Title"
+        android:showAsAction="never" />
+    <include
+        android:id="@+id/action_sort_date"
+        android:title="Sort by Date"
+        android:showAsAction="never" />
+</menu>
